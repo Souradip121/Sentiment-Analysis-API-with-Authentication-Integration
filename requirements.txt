@@ -7,3 +7,9 @@ python-multipart>=0.0.5
 sqlalchemy>=1.4.23
 alembic>=1.7.4
 python-dotenv>=0.19.0
+# Additional required packages for sentiment analysis
+nltk>=3.6.3
+requests>=2.26.0
+backoff>=1.11.1
+# For testing
+pytest>=6.2.5
